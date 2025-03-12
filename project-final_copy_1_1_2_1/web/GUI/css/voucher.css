@@ -1,0 +1,36 @@
+
+.card-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    text-align: center;
+}
+
+.card-item{
+    height: 200px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+}
+
+.card-item .card-img{
+    height: 164px;
+    width: 164px;
+}
+.card-body{
+    display: grid;
+    grid-template-row: 1fr 2fr 1fr;
+}
+.card-getvalue{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.getValue{
+    margin: auto;
+    width: 100px;
+}
+
